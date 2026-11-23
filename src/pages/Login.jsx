@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 
 export default function Login() {
-  const [email, setEmail] = useState('admin@doceria.com');
-  const [senha, setSenha] = useState('admin123');
+  const [email, setEmail] = useState('');
+  const [senha, setSenha] = useState('');
   const [erro, setErro] = useState('');
   const [carregando, setCarregando] = useState(false);
 
@@ -41,7 +41,6 @@ export default function Login() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="admin@doceria.com"
               required
               style={styles.input}
             />
@@ -53,7 +52,6 @@ export default function Login() {
               type="password"
               value={senha}
               onChange={(e) => setSenha(e.target.value)}
-              placeholder="••••••••"
               required
               style={styles.input}
             />
@@ -64,9 +62,6 @@ export default function Login() {
           </button>
         </form>
 
-        <div style={styles.hintBox}>
-          <strong>Acesso de teste:</strong> admin@doceria.com / admin123
-        </div>
       </div>
     </div>
   );
