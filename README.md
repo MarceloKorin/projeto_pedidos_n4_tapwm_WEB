@@ -3,17 +3,18 @@
 > Projeto N4 — Turma TAPWM | Fatec  
 > Painel administrativo web para gerenciamento de produtos e pedidos da Doceria Hub Flow.
 
+🔗 **Acesse o projeto online:** [https://doceria-hub-web.onrender.com](https://doceria-hub-web.onrender.com)
+
 ---
 
 ## 👥 Equipe
 
 | Nome | Função | GitHub |
 |------|--------|--------|
-| Eric Gois | 📱 App Mobile (React Native / Expo) | [@ericfgois](https://github.com/ericfgois) |
-| Gabriel Almeida | ⚙️ API REST (Node.js / Express) | [@GabrielXAlmeida](https://github.com/GabrielXAlmeida) |
-| Marcelo Korin | 🌐 Web Admin (React / Vite) | [@MarceloKorin](https://github.com/MarceloKorin) |
-| David | 🗄️ Banco de Dados (MySQL) | — |
-
+| Eric Fracassi de Gois | 📱 App Mobile (React Native / Expo) | [@ericfgois](https://github.com/ericfgois) |
+| Gabriel Xavier de Almeida | ⚙️ API REST (Node.js / Express) | [@GabrielXAlmeida](https://github.com/GabrielXAlmeida) |
+| Marcelo Enrique Korin | 🌐 Web Admin (React / Vite) | [@MarceloKorin](https://github.com/MarceloKorin) |
+| David Lima Alves | 🗄️ Banco de Dados (MySQL) | [@davidlima2007](https://github.com/davidlima2007) |
 ---
 
 ## 🔗 Repositórios do Projeto
@@ -83,19 +84,36 @@ npm run preview
 | Perfil | E-mail | Senha |
 |--------|--------|-------|
 | Admin (Web) | `admin@doceria.com` | `admin123` |
-| Cliente (Mobile) | `cliente@doceria.com` | `cliente123` |
+| Cliente (Mobile) | `cliente3@doceria.com` | `cli123` |
 
-> ⚠️ O painel web é acessível apenas com conta de **administrador**.
+> ⚠️ O painel web é acessível apenas com conta de **administrador**.  
+> 📱 No app mobile também é possível **cadastrar um novo login**.
 
 ---
 
 ## 📋 Funcionalidades
 
+### 🌐 Web Admin
 - [x] Login de administrador
-- [x] Listagem de todos os pedidos
-- [x] Atualização de status dos pedidos (Pendente → Em preparo → Pronto → Entregue)
-- [x] Gerenciamento de produtos (cadastro, edição, remoção)
-- [x] Visualização de detalhes do pedido
+- [x] Visualização do total de pedidos
+- [x] Visualização do total de pedidos aguardando preparo
+- [x] Visualização do faturamento acumulado
+- [x] Visualização dos pedidos recebidos
+- [x] Atualização de status dos pedidos (Pendente → Em preparo → Concluído)
+- [x] Visualização do catálogo de produtos
+- [x] Adição de novos produtos
+
+### 📱 App Mobile
+- [x] Cadastro de usuário
+- [x] Login
+- [x] Seleção de produtos para formular pedidos
+- [x] Realização de pedidos
+
+---
+
+## 📱 Aplicativo Mobile
+
+O app é distribuído em formato **APK**, entregue dentro do arquivo `.rar` anexado à tarefa (o Teams não permite anexar `.apk` diretamente).
 
 ---
 
